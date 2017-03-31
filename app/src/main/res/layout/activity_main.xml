@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="me.huseyinozer.dagger2androidinjector.screens.main.activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/button_get_user_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/get_user_information"/>
+
+        <Button
+            android:id="@+id/button_open_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opet_about"/>
+
+    </LinearLayout>
+
+</FrameLayout>

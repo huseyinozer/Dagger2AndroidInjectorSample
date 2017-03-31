@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dagger2AndroidInjector</string>
+    <string name="get_user_information">Get User Information</string>
+    <string name="opet_about">Opet About</string>
+</resources>
